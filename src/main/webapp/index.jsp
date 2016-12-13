@@ -5,6 +5,7 @@
     <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script src="http://static.geetest.com/static/tools/gt.js"></script>
 
+    <script type="text/javascript" src="resources/script/digest.js"></script>
     <script>
         $(document).ready(function () {
             $.ajax({
@@ -23,6 +24,7 @@
                         product: "embed",
                         offline: !data.success
                     }, handlerEmbed);
+//                    digest.data.init();
                 }
             });
 
